@@ -522,6 +522,13 @@ Default: `null`
 
 Password for Java TrustStore file.
 
+#### `MB_JETTY_SSL_CLIENT_AUTH`
+
+Type: boolean<br>
+Default: `null`
+
+Configure Java SSL client authentication. When set to `true`, client certificates are required and verified by the certificate authority in the TrustStore.
+
 #### `MB_JWT_ATTRIBUTE_EMAIL`
 
 Only available in Enterprise Edition<br>
